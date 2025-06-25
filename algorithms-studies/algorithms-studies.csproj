@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>algorithms_studies</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Algorithms\BackTracking\" />
+      <Folder Include="Algorithms\Caches\" />
+      <Folder Include="Algorithms\Graphs\" />
+      <Folder Include="Algorithms\Greedy\" />
+      <Folder Include="Algorithms\Recursion\" />
+      <Folder Include="Algorithms\Sorting\" />
+      <Folder Include="Algorithms\Tree\" />
+    </ItemGroup>
+
+</Project>
