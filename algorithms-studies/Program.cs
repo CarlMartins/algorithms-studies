@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using algorithms_studies.Algorithms.Sorting.BubbleSort;
 
-Console.WriteLine("Hello, World!");
+int[] array = [2, 7, 1, 3, 5, 4, 8, 6];
+
+Bubble25062025.Sort(array).PrintArray();
