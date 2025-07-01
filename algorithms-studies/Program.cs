@@ -9,3 +9,4 @@ Bubble26062025_2.Sort(array).PrintArray();
 Bubble30062025.Sort(array).PrintArray();
 
 SelectionSort30062025.Sort(array).PrintArray();
+SelectionSort30062025_2.Sort(array).PrintArray();
