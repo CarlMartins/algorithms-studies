@@ -14,7 +14,6 @@
       <Folder Include="Algorithms\Graphs\" />
       <Folder Include="Algorithms\Greedy\" />
       <Folder Include="Algorithms\Recursion\" />
-      <Folder Include="Algorithms\Sorting\" />
       <Folder Include="Algorithms\Tree\" />
     </ItemGroup>
 
