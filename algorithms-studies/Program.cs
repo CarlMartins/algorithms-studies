@@ -8,6 +8,7 @@ Bubble26062025.Sort(array).PrintArray();
 Bubble26062025_2.Sort(array).PrintArray();
 Bubble30062025.Sort(array).PrintArray();
 Bubble_02072025.Sort(array).PrintArray();
+Bubble20250707.Sort(array).PrintArray();
 
 SelectionSort30062025.Sort(array).PrintArray();
 SelectionSort30062025_2.Sort(array).PrintArray();
