@@ -1,0 +1,27 @@
+namespace algorithms_studies.Algorithms.Sorting.SelectionSort;
+
+public static class SelectionSort20250707
+{
+    public static int[] Sort(int[] array)
+    {
+        for (var i = 0; i <= array.Length - 1; i++)
+        {
+            var lowestNumberIndex = i;
+
+            for (var j = i + 1; j < array.Length - 1; j++)
+            {
+                if (array[j] >= array[lowestNumberIndex])
+                    continue;
+
+                lowestNumberIndex = j;
+            }
+
+            if (lowestNumberIndex == i)
+                continue;
+
+            (array[i], array[lowestNumberIndex]) = (array[lowestNumberIndex], array[i]);
+        }
+        
+        return array;
+    }
+}
