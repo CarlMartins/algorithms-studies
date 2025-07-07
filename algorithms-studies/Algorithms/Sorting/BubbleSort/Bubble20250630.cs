@@ -1,6 +1,6 @@
 namespace algorithms_studies.Algorithms.Sorting.BubbleSort;
 
-public static class Bubble_02072025
+public static class Bubble20250630
 {
     public static int[] Sort(int[] array)
     {
@@ -12,7 +12,7 @@ public static class Bubble_02072025
             {
                 if (array[j] <= array[j + 1])
                     continue;
-                
+
                 (array[j], array[j + 1]) = (array[j + 1], array[j]);
                 hasAnyChanges = true;
             }

@@ -1,6 +1,6 @@
 namespace algorithms_studies.Algorithms.Sorting.BubbleSort;
 
-public static class Bubble26062025
+public static class Bubble20250626
 {
     public static int[] Sort(int[] array)
     {
