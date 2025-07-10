@@ -19,3 +19,4 @@ SelectionSort20250630.Sort(array).PrintArray();
 SelectionSort20250630_2.Sort(array).PrintArray();
 SelectionSort20250702.Sort(array).PrintArray();
 SelectionSort20250707.Sort(array).PrintArray();
+SelectionSort20250710.Sort(array).PrintArray();
