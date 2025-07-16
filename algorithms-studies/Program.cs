@@ -1,4 +1,5 @@
 ﻿using algorithms_studies.Algorithms.Sorting.BubbleSort;
+using algorithms_studies.Algorithms.Sorting.InsertionSort;
 using algorithms_studies.Algorithms.Sorting.SelectionSort;
 
 int[] array = [2, 7, 1, 3, 5, 4, 8, 6, 7];
@@ -20,3 +21,6 @@ SelectionSort20250630_2.Sort(array).PrintArray();
 SelectionSort20250702.Sort(array).PrintArray();
 SelectionSort20250707.Sort(array).PrintArray();
 SelectionSort20250710.Sort(array).PrintArray();
+
+Console.WriteLine("\n___INSERTION SORT___\n");
+InsertionSort20250710.Sort(array).PrintArray();
