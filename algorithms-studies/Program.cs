@@ -30,3 +30,7 @@ Console.WriteLine("\n___INSERTION SORT___\n");
 InsertionSort20250710.Sort(array.ToArray()).PrintArray();
 InsertionSort20250717.Sort(array.ToArray()).PrintArray();
 InsertionSort20250717_2.Sort(array.ToArray()).PrintArray();
+InsertionSort20251707_3.Sort(array.ToArray()).PrintArray();
+InsertionSort20251707_4.Sort(array.ToArray()).PrintArray();
+InsertionSort20251707_5.Sort(array.ToArray()).PrintArray();
+InsertionSort20251707_6.Sort(array.ToArray()).PrintArray();
