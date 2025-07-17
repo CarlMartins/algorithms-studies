@@ -1,25 +1,25 @@
 namespace algorithms_studies.Algorithms.Sorting.SelectionSort;
 
-public static class SelectionSort20250707
+public static class SelectionSort20251607
 {
     public static int[] Sort(int[] array)
     {
         for (var i = 0; i < array.Length; i++)
         {
-            var lowestNumberIndex = i;
+            var lowestValueIndex = i;
 
             for (var j = i + 1; j < array.Length; j++)
             {
-                if (array[j] >= array[lowestNumberIndex])
+                if (array[j] >= array[lowestValueIndex])
                     continue;
 
-                lowestNumberIndex = j;
+                lowestValueIndex = j;
             }
-
-            if (lowestNumberIndex == i)
+            
+            if (lowestValueIndex == i)
                 continue;
-
-            (array[i], array[lowestNumberIndex]) = (array[lowestNumberIndex], array[i]);
+            
+            (array[i], array[lowestValueIndex]) = (array[lowestValueIndex], array[i]);
         }
         
         return array;

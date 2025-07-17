@@ -2,7 +2,7 @@
 using algorithms_studies.Algorithms.Sorting.InsertionSort;
 using algorithms_studies.Algorithms.Sorting.SelectionSort;
 
-int[] array = [64, 34, 25, 12, 22, 11, 12, 90];
+int[] array = [64, 34, 25, 12, 22, 90, 11, 12];
 
 Console.WriteLine("\n___BUBBLE SORT___\n");
 
@@ -22,6 +22,7 @@ SelectionSort20250630_2.Sort(array.ToArray()).PrintArray();
 SelectionSort20250702.Sort(array.ToArray()).PrintArray();
 SelectionSort20250707.Sort(array.ToArray()).PrintArray();
 SelectionSort20250710.Sort(array.ToArray()).PrintArray();
+SelectionSort20251607.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___INSERTION SORT___\n");
 InsertionSort20250710.Sort(array.ToArray()).PrintArray();

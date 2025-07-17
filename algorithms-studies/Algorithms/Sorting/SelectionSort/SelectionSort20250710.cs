@@ -4,16 +4,16 @@ public static class SelectionSort20250710
 {
     public static int[] Sort(int[] array)
     {
-        for (var i = 0; i <= array.Length - 1; i++)
+        for (var i = 0; i < array.Length; i++)
         {
             var lowestNumberIndex = i;
 
-            for (int j = i; j < array.Length - 1; j++)
+            for (var j = i + 1; j < array.Length; j++)
             {
                 if (array[j] >= array[lowestNumberIndex])
                     continue;
 
-                lowestNumberIndex = i;
+                lowestNumberIndex = j;
             }
 
             if (lowestNumberIndex == i)
