@@ -15,6 +15,7 @@ Bubble20250707.Sort(array.ToArray()).PrintArray();
 Bubble20250710.Sort(array.ToArray()).PrintArray();
 Bubble20250716.Sort(array.ToArray()).PrintArray();
 Bubble20251707.Sort(array.ToArray()).PrintArray();
+Bubble20251907.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___SELECTION SORT___\n");
 
