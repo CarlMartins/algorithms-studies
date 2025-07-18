@@ -15,7 +15,7 @@ Bubble20250707.Sort(array.ToArray()).PrintArray();
 Bubble20250710.Sort(array.ToArray()).PrintArray();
 Bubble20250716.Sort(array.ToArray()).PrintArray();
 Bubble20251707.Sort(array.ToArray()).PrintArray();
-Bubble20251907.Sort(array.ToArray()).PrintArray();
+Bubble20251807.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___SELECTION SORT___\n");
 
@@ -26,7 +26,7 @@ SelectionSort20250707.Sort(array.ToArray()).PrintArray();
 SelectionSort20250710.Sort(array.ToArray()).PrintArray();
 SelectionSort20251607.Sort(array.ToArray()).PrintArray();
 SelectionSort20251707.Sort(array.ToArray()).PrintArray();
-SelectionSort20251907.Sort(array.ToArray()).PrintArray();
+SelectionSort20251807.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___INSERTION SORT___\n");
 InsertionSort20250710.Sort(array.ToArray()).PrintArray();
@@ -36,4 +36,4 @@ InsertionSort20251707_3.Sort(array.ToArray()).PrintArray();
 InsertionSort20251707_4.Sort(array.ToArray()).PrintArray();
 InsertionSort20251707_5.Sort(array.ToArray()).PrintArray();
 InsertionSort20251707_6.Sort(array.ToArray()).PrintArray();
-InsertionSort20251907.Sort(array.ToArray()).PrintArray();
+InsertionSort20251807.Sort(array.ToArray()).PrintArray();

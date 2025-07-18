@@ -1,6 +1,6 @@
 namespace algorithms_studies.Algorithms.Sorting.SelectionSort;
 
-public static class SelectionSort20251907
+public static class SelectionSort20251807
 {
     public static int[] Sort(int[] array)
     {
