@@ -28,6 +28,7 @@ SelectionSort20250710.Sort(array.ToArray()).PrintArray();
 SelectionSort20251607.Sort(array.ToArray()).PrintArray();
 SelectionSort20251707.Sort(array.ToArray()).PrintArray();
 SelectionSort20251807.Sort(array.ToArray()).PrintArray();
+SelectionSort20251907.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___INSERTION SORT___\n");
 InsertionSort20250710.Sort(array.ToArray()).PrintArray();
