@@ -1,6 +1,6 @@
 namespace algorithms_studies.Algorithms.Sorting.SelectionSort;
 
-public static class SelectionSort20251707
+public static class SelectionSort20250718
 {
     public static int[] Sort(int[] array)
     {
@@ -21,7 +21,7 @@ public static class SelectionSort20251707
 
             (array[i], array[lowestValueIndex]) = (array[lowestValueIndex], array[i]);
         }
-        
+
         return array;
     }
 }

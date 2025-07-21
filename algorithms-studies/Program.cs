@@ -9,7 +9,7 @@ int[] arrayToRotate = [1, 2, 3, 4, 5, 6, 7];
 int rotateK = 3;
 
 Console.WriteLine("\n___BUBBLE SORT___\n");
-//
+
 // Bubble20250625.Sort(array.ToArray()).PrintArray();
 // Bubble20250626.Sort(array.ToArray()).PrintArray();
 // Bubble20250626_2.Sort(array.ToArray()).PrintArray();
@@ -24,8 +24,8 @@ Console.WriteLine("\n___BUBBLE SORT___\n");
 // Bubble20250720.Sort(array.ToArray()).PrintArray();
 Bubble20250721.Sort(array.ToArray()).PrintArray();
 
-// Console.WriteLine("\n___SELECTION SORT___\n");
-//
+Console.WriteLine("\n___SELECTION SORT___\n");
+
 // SelectionSort20250630.Sort(array.ToArray()).PrintArray();
 // SelectionSort20250630_2.Sort(array.ToArray()).PrintArray();
 // SelectionSort20250702.Sort(array.ToArray()).PrintArray();
@@ -36,6 +36,7 @@ Bubble20250721.Sort(array.ToArray()).PrintArray();
 // SelectionSort20251807.Sort(array.ToArray()).PrintArray();
 // SelectionSort20251907.Sort(array.ToArray()).PrintArray();
 // SelectionSort20250720.Sort(array.ToArray()).PrintArray();
+SelectionSort20250721.Sort(array.ToArray()).PrintArray();
 
 // Console.WriteLine("\n___INSERTION SORT___\n");
 //
