@@ -38,8 +38,8 @@ Console.WriteLine("\n___SELECTION SORT___\n");
 // SelectionSort20250720.Sort(array.ToArray()).PrintArray();
 SelectionSort20250721.Sort(array.ToArray()).PrintArray();
 
-// Console.WriteLine("\n___INSERTION SORT___\n");
-//
+Console.WriteLine("\n___INSERTION SORT___\n");
+
 // InsertionSort20250710.Sort(array.ToArray()).PrintArray();
 // InsertionSort20250717.Sort(array.ToArray()).PrintArray();
 // InsertionSort20250717_2.Sort(array.ToArray()).PrintArray();
@@ -50,6 +50,7 @@ SelectionSort20250721.Sort(array.ToArray()).PrintArray();
 // InsertionSort20250718.Sort(array.ToArray()).PrintArray();
 // InsertionSort20250719.Sort(array.ToArray()).PrintArray();
 // InsertionSort20250720.Sort(array.ToArray()).PrintArray();
+InsertionSort20252107.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___ARRAYS - ROTATE AN ARRAY BY K ELEMENTS___\n");
 
