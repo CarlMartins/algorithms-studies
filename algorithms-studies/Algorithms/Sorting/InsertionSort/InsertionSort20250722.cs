@@ -1,6 +1,6 @@
 namespace algorithms_studies.Algorithms.Sorting.InsertionSort;
 
-public static class InsertionSort20252107
+public static class InsertionSort20250722
 {
     public static int[] Sort(int[] array)
     {

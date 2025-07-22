@@ -20,7 +20,8 @@ SelectionSort20250722.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___INSERTION SORT___\n");
 
-InsertionSort20252107.Sort(array.ToArray()).PrintArray();
+InsertionSort20250721.Sort(array.ToArray()).PrintArray();
+InsertionSort20250722.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___ARRAYS - ROTATE AN ARRAY BY K ELEMENTS___\n");
 
