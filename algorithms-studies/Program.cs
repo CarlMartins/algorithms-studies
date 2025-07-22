@@ -10,46 +10,15 @@ int rotateK = 3;
 
 Console.WriteLine("\n___BUBBLE SORT___\n");
 
-// Bubble20250625.Sort(array.ToArray()).PrintArray();
-// Bubble20250626.Sort(array.ToArray()).PrintArray();
-// Bubble20250626_2.Sort(array.ToArray()).PrintArray();
-// Bubble20250630.Sort(array.ToArray()).PrintArray();
-// Bubble20250702.Sort(array.ToArray()).PrintArray();
-// Bubble20250707.Sort(array.ToArray()).PrintArray();
-// Bubble20250710.Sort(array.ToArray()).PrintArray();
-// Bubble20250716.Sort(array.ToArray()).PrintArray();
-// Bubble20250717.Sort(array.ToArray()).PrintArray();
-// Bubble20250718.Sort(array.ToArray()).PrintArray();
-// Bubble20250719.Sort(array.ToArray()).PrintArray();
-// Bubble20250720.Sort(array.ToArray()).PrintArray();
 Bubble20250721.Sort(array.ToArray()).PrintArray();
+Bubble20250722.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___SELECTION SORT___\n");
 
-// SelectionSort20250630.Sort(array.ToArray()).PrintArray();
-// SelectionSort20250630_2.Sort(array.ToArray()).PrintArray();
-// SelectionSort20250702.Sort(array.ToArray()).PrintArray();
-// SelectionSort20250707.Sort(array.ToArray()).PrintArray();
-// SelectionSort20250710.Sort(array.ToArray()).PrintArray();
-// SelectionSort20251607.Sort(array.ToArray()).PrintArray();
-// SelectionSort20251707.Sort(array.ToArray()).PrintArray();
-// SelectionSort20251807.Sort(array.ToArray()).PrintArray();
-// SelectionSort20251907.Sort(array.ToArray()).PrintArray();
-// SelectionSort20250720.Sort(array.ToArray()).PrintArray();
 SelectionSort20250721.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___INSERTION SORT___\n");
 
-// InsertionSort20250710.Sort(array.ToArray()).PrintArray();
-// InsertionSort20250717.Sort(array.ToArray()).PrintArray();
-// InsertionSort20250717_2.Sort(array.ToArray()).PrintArray();
-// InsertionSort20250717_3.Sort(array.ToArray()).PrintArray();
-// InsertionSort20250717_4.Sort(array.ToArray()).PrintArray();
-// InsertionSort20250717_5.Sort(array.ToArray()).PrintArray();
-// InsertionSort20250717_6.Sort(array.ToArray()).PrintArray();
-// InsertionSort20250718.Sort(array.ToArray()).PrintArray();
-// InsertionSort20250719.Sort(array.ToArray()).PrintArray();
-// InsertionSort20250720.Sort(array.ToArray()).PrintArray();
 InsertionSort20252107.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___ARRAYS - ROTATE AN ARRAY BY K ELEMENTS___\n");
