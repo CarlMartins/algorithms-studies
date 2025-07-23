@@ -36,4 +36,5 @@ Console.WriteLine("\n___ARRAYS - ROTATE AN ARRAY BY K ELEMENTS___\n");
 RotateByK_20250720.RorateRight(arrayToRotate, rotateK).PrintArray();
 
 Console.WriteLine("\n___ARRAYS - LONGEST CONSECUTIVE SEQUENCE___\n");
-LongestConsecutiveSequence_20250722.LongestConsecutive(arrayToGetLongestConsecutiveSequence3.ToArray()).PrintInteger();
+LongestConsecutiveSequence_20250722.LongestConsecutive(arrayToGetLongestConsecutiveSequence.ToArray()).PrintInteger();
+LongestConsecutiveSequence_20250723.LongestConsecutive(arrayToGetLongestConsecutiveSequence.ToArray()).PrintInteger();
