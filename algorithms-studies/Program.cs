@@ -20,6 +20,7 @@ Console.WriteLine("\n___BUBBLE SORT___\n");
 Bubble20250721.Sort(array.ToArray()).PrintArray();
 Bubble20250722.Sort(array.ToArray()).PrintArray();
 Bubble20250723.Sort(array.ToArray()).PrintArray();
+Bubble20250724.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___SELECTION SORT___\n");
 
