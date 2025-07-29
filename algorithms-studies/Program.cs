@@ -13,7 +13,7 @@ int[] arrayToGetLongestConsecutiveSequence2 = [100, 4, 20, 1, 3, 2];
 int[] arrayToGetLongestConsecutiveSequence3 = [0, 3, 7, 2, 5, 8, 4, 6, 0, 1];
 
 int[] arrayToTwoSum = [11, 15, 2, 4, 3];
-const int targetTwoSum = 14;
+const int targetTwoSum = 6;
 
 string[] linkedListWords = { "the", "jumps", "over", "the", "dog" };
 
@@ -52,3 +52,4 @@ Console.WriteLine("\n___ARRAYS - TWO SUM___\n");
 TwoSum_20250723.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
 TwoSum_20250723_2.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
 TwoSum_20250723_3.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
+TwoSum_20250728.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
