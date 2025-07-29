@@ -15,30 +15,30 @@ int[] arrayToGetLongestConsecutiveSequence3 = [0, 3, 7, 2, 5, 8, 4, 6, 0, 1];
 int[] arrayToTwoSum = [11, 15, 2, 4, 3];
 const int targetTwoSum = 14;
 
-Console.WriteLine("\n___BUBBLE SORT___\n");
+string[] linkedListWords = { "the", "jumps", "over", "the", "dog" };
 
+Console.WriteLine("\n___BUBBLE SORT___\n");
 Bubble20250721.Sort(array.ToArray()).PrintArray();
 Bubble20250722.Sort(array.ToArray()).PrintArray();
 Bubble20250723.Sort(array.ToArray()).PrintArray();
 Bubble20250724.Sort(array.ToArray()).PrintArray();
+Bubble20250728.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___SELECTION SORT___\n");
-
 SelectionSort20250721.Sort(array.ToArray()).PrintArray();
 SelectionSort20250722.Sort(array.ToArray()).PrintArray();
 SelectionSort20250723.Sort(array.ToArray()).PrintArray();
 SelectionSort20250724.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___INSERTION SORT___\n");
-
 InsertionSort20250721.Sort(array.ToArray()).PrintArray();
 InsertionSort20250722.Sort(array.ToArray()).PrintArray();
 InsertionSort20250723.Sort(array.ToArray()).PrintArray();
 InsertionSort20250724.Sort(array.ToArray()).PrintArray();
 
+Console.WriteLine("\n___DATA STRUCTURES - LINKED LIST___\n");
 
 Console.WriteLine("\n___ARRAYS - ROTATE AN ARRAY BY K ELEMENTS___\n");
-
 RotateByK_20250720.RorateRight(arrayToRotate, rotateK).PrintArray();
 
 Console.WriteLine("\n___ARRAYS - LONGEST CONSECUTIVE SEQUENCE___\n");
