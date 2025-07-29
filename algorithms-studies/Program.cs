@@ -38,6 +38,7 @@ InsertionSort20250722.Sort(array.ToArray()).PrintArray();
 InsertionSort20250723.Sort(array.ToArray()).PrintArray();
 InsertionSort20250724.Sort(array.ToArray()).PrintArray();
 InsertionSort20250728.Sort(array.ToArray()).PrintArray();
+InsertionSort20250729.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___DATA STRUCTURES - LINKED LIST___\n");
 
