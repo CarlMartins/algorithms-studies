@@ -1,4 +1,5 @@
-﻿using algorithms_studies.Algorithms.Sorting.BubbleSort;
+﻿using algorithms_studies.Algorithms.Search;
+using algorithms_studies.Algorithms.Sorting.BubbleSort;
 using algorithms_studies.Algorithms.Sorting.InsertionSort;
 using algorithms_studies.Algorithms.Sorting.SelectionSort;
 using algorithms_studies.Problems.Arrays;
@@ -16,6 +17,9 @@ int[] arrayToTwoSum = [11, 15, 2, 4, 3];
 const int targetTwoSum = 6;
 
 string[] linkedListWords = { "the", "jumps", "over", "the", "dog" };
+
+int[] binarySearchArray = [2, 6, 23, 45, 99, 150, 152];
+var binarySearchTarget = 150;
 
 Console.WriteLine("\n___BUBBLE SORT___\n");
 Bubble20250721.Sort(array.ToArray()).PrintArray();
@@ -56,3 +60,6 @@ TwoSum_20250723.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
 TwoSum_20250723_2.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
 TwoSum_20250723_3.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
 TwoSum_20250728.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
+
+Console.WriteLine("\n___SEARCH - BINARY SEARCH___\n");
+BinarySearch_20250729.BinarySearch(binarySearchArray, binarySearchTarget).PrintInteger();
