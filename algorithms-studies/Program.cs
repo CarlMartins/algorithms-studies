@@ -63,3 +63,4 @@ TwoSum_20250728.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
 
 Console.WriteLine("\n___SEARCH - BINARY SEARCH___\n");
 BinarySearch_20250729.BinarySearch(binarySearchArray, binarySearchTarget).PrintInteger();
+BinarySearch_20250731.BinarySearch(binarySearchArray, binarySearchTarget).PrintInteger();
