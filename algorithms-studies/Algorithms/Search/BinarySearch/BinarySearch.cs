@@ -6,14 +6,11 @@ public class BinarySearch : SearchBaseClass
 {
     private const string SearchName = "BINARY SEARCH";
     
-    public BinarySearch()
+    public BinarySearch() : base()
     { }
-    
-    public BinarySearch(int[] array, int target)
-    {
-        Array = array;
-        Target = target;
-    }
+
+    public BinarySearch(int[] array, int target) : base(array, target)
+    { }
     
     public void PrintBinarySearches()
     {

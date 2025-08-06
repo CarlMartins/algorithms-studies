@@ -6,6 +6,12 @@ public class SelectionSort : SortBaseClass
 {
     private const string SortName = "SELECTION SORT";
 
+    public SelectionSort()
+    { }
+
+    public SelectionSort(int[] array) : base(array)
+    { }
+    
     public void PrintSelectionSort()
     {
         PrintHeader(SortName);

@@ -4,16 +4,16 @@ using algorithms_studies.Algorithms.Sorting.InsertionSort;
 using algorithms_studies.Algorithms.Sorting.SelectionSort;
 using algorithms_studies.Problems.Arrays;
 
-var bubbleSort = new BubbleSort();
+var bubbleSort = new BubbleSort([4, 21, 1, 6, 29, 100, 0]);
 bubbleSort.PrintBubbleSort();
 
-var insertionSort = new InsertionSort();
+var insertionSort = new InsertionSort([154, 123, 0, 2, 900]);
 insertionSort.PrintInsertionSort();
 
-var selectionSort = new SelectionSort();
+var selectionSort = new SelectionSort([700, 1, 25, 8, 20]);
 selectionSort.PrintSelectionSort();
 
-var binarySearch = new BinarySearch();
+var binarySearch = new BinarySearch([10, 20, 30, 40], 30);
 binarySearch.PrintBinarySearches();
 
 // NEEDS TO BE REFACTORED

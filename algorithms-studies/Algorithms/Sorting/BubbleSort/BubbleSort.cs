@@ -6,6 +6,13 @@ public class BubbleSort : SortBaseClass
 {
     private const string SortName = "BUBBLE SORT";
     
+    public BubbleSort() : base()
+    {
+    }
+    
+    public BubbleSort(int[] array) : base(array)
+    { }
+    
     public void PrintBubbleSort()
     {
         PrintHeader(SortName);
