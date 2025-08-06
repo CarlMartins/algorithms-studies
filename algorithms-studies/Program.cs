@@ -1,11 +1,22 @@
-﻿using algorithms_studies.Algorithms.Search;
+﻿using algorithms_studies.Algorithms.Search.BinarySearch;
 using algorithms_studies.Algorithms.Sorting.BubbleSort;
 using algorithms_studies.Algorithms.Sorting.InsertionSort;
 using algorithms_studies.Algorithms.Sorting.SelectionSort;
 using algorithms_studies.Problems.Arrays;
 
-int[] array = [64, 34, 25, 12, 22, 90, 11, 12];
+var bubbleSort = new BubbleSort();
+bubbleSort.PrintBubbleSort();
 
+var insertionSort = new InsertionSort();
+insertionSort.PrintInsertionSort();
+
+var selectionSort = new SelectionSort();
+selectionSort.PrintSelectionSort();
+
+var binarySearch = new BinarySearch();
+binarySearch.PrintBinarySearches();
+
+// NEEDS TO BE REFACTORED
 int[] arrayToRotate = [1, 2, 3, 4, 5, 6, 7];
 const int rotateK = 3;
 
@@ -17,36 +28,6 @@ int[] arrayToTwoSum = [11, 15, 2, 4, 3];
 const int targetTwoSum = 6;
 
 string[] linkedListWords = { "the", "jumps", "over", "the", "dog" };
-
-int[] binarySearchArray = [2, 6, 23, 45, 99, 150, 152];
-var binarySearchTarget = 152;
-
-Console.WriteLine("\n___BUBBLE SORT___\n");
-Bubble20250721.Sort(array.ToArray()).PrintArray();
-Bubble20250722.Sort(array.ToArray()).PrintArray();
-Bubble20250723.Sort(array.ToArray()).PrintArray();
-Bubble20250724.Sort(array.ToArray()).PrintArray();
-Bubble20250728.Sort(array.ToArray()).PrintArray();
-Bubble20250729.Sort(array.ToArray()).PrintArray();
-Bubble20250804.Sort(array.ToArray()).PrintArray();
-
-Console.WriteLine("\n___SELECTION SORT___\n");
-SelectionSort20250721.Sort(array.ToArray()).PrintArray();
-SelectionSort20250722.Sort(array.ToArray()).PrintArray();
-SelectionSort20250723.Sort(array.ToArray()).PrintArray();
-SelectionSort20250724.Sort(array.ToArray()).PrintArray();
-SelectionSort20250728.Sort(array.ToArray()).PrintArray();
-SelectionSort20250729.Sort(array.ToArray()).PrintArray();
-SelectionSort20250804.Sort(array.ToArray()).PrintArray();
-
-Console.WriteLine("\n___INSERTION SORT___\n");
-InsertionSort20250721.Sort(array.ToArray()).PrintArray();
-InsertionSort20250722.Sort(array.ToArray()).PrintArray();
-InsertionSort20250723.Sort(array.ToArray()).PrintArray();
-InsertionSort20250724.Sort(array.ToArray()).PrintArray();
-InsertionSort20250728.Sort(array.ToArray()).PrintArray();
-InsertionSort20250729.Sort(array.ToArray()).PrintArray();
-InsertionSort20250804.Sort(array.ToArray()).PrintArray();
 
 Console.WriteLine("\n___DATA STRUCTURES - LINKED LIST___\n");
 
@@ -63,9 +44,3 @@ TwoSum_20250723.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
 TwoSum_20250723_2.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
 TwoSum_20250723_3.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
 TwoSum_20250728.TwoSum(arrayToTwoSum.ToArray(), targetTwoSum).PrintArray();
-
-Console.WriteLine("\n___SEARCH - BINARY SEARCH___\n");
-BinarySearch_20250729.BinarySearch(binarySearchArray, binarySearchTarget).PrintInteger();
-BinarySearch_20250731.BinarySearch(binarySearchArray, binarySearchTarget).PrintInteger();
-BinarySearch_20250804.BinarySearch(binarySearchArray, binarySearchTarget).PrintInteger();
-BinarySearch_20250804_2.BinarySearch(binarySearchArray, binarySearchTarget).PrintInteger();

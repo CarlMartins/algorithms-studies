@@ -6,4 +6,9 @@ public static class IntegerPrinter
     {
         Console.WriteLine(number);
     }
+
+    public static void PrintInteger(this int number, string date)
+    {
+        Console.WriteLine($"{number}    ({date})");
+    }
 }
