@@ -2,11 +2,11 @@ using algorithms_studies.BaseClasses;
 
 namespace algorithms_studies.Algorithms.Sorting.InsertionSort;
 
-public class InsertionSort : SortBaseClass
+public class InsertionSort : SortBase
 {
     private const string SortName = "INSERTION SORT";
 
-    public InsertionSort() : base()
+    public InsertionSort() : base(SortName)
     { }
 
     public InsertionSort(int[] array) : base(array)
@@ -14,7 +14,7 @@ public class InsertionSort : SortBaseClass
     
     public void PrintInsertionSort()
     {
-        PrintHeader(SortName);
+        PrintHeader();
 
         InsertionSort20250710.Sort(Array.ToArray()).PrintArray("2025-07-10");
         InsertionSort20250717.Sort(Array.ToArray()).PrintArray("2025-07-17");

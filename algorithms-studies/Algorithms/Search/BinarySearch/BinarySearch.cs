@@ -2,11 +2,11 @@ using algorithms_studies.BaseClasses;
 
 namespace algorithms_studies.Algorithms.Search.BinarySearch;
 
-public class BinarySearch : SearchBaseClass
+public class BinarySearch : SearchBase
 {
     private const string SearchName = "BINARY SEARCH";
     
-    public BinarySearch() : base()
+    public BinarySearch() : base(SearchName)
     { }
 
     public BinarySearch(int[] array, int target) : base(array, target)

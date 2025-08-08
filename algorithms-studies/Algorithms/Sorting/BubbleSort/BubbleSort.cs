@@ -2,20 +2,19 @@ using algorithms_studies.BaseClasses;
 
 namespace algorithms_studies.Algorithms.Sorting.BubbleSort;
 
-public class BubbleSort : SortBaseClass
+public class BubbleSort : SortBase
 {
     private const string SortName = "BUBBLE SORT";
     
-    public BubbleSort() : base()
-    {
-    }
+    public BubbleSort() : base(SortName)
+    { }
     
     public BubbleSort(int[] array) : base(array)
     { }
     
     public void PrintBubbleSort()
     {
-        PrintHeader(SortName);
+        PrintHeader();
         
         BubbleSort_20250625.Sort(Array.ToArray()).PrintArray("2025-06-25");
         BubbleSort_20250626.Sort(Array.ToArray()).PrintArray("2025-06-26");

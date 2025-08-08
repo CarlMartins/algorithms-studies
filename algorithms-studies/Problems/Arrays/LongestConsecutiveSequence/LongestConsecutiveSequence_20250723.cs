@@ -1,4 +1,4 @@
-namespace algorithms_studies.Problems.Arrays;
+namespace algorithms_studies.Problems.Arrays.LongestConsecutiveSequence;
 
 public static class LongestConsecutiveSequence_20250723
 {

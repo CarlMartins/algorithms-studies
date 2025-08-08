@@ -2,11 +2,11 @@ using algorithms_studies.BaseClasses;
 
 namespace algorithms_studies.Algorithms.Sorting.SelectionSort;
 
-public class SelectionSort : SortBaseClass
+public class SelectionSort : SortBase
 {
     private const string SortName = "SELECTION SORT";
 
-    public SelectionSort()
+    public SelectionSort() : base(SortName)
     { }
 
     public SelectionSort(int[] array) : base(array)
@@ -14,7 +14,7 @@ public class SelectionSort : SortBaseClass
     
     public void PrintSelectionSort()
     {
-        PrintHeader(SortName);
+        PrintHeader();
 
         SelectionSort_20250630.Sort(Array.ToArray()).PrintArray("2025-06-30");
         SelectionSort_20250630_2.Sort(Array.ToArray()).PrintArray("2025-06-30");
