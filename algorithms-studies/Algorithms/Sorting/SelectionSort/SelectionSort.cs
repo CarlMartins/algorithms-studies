@@ -33,6 +33,7 @@ public class SelectionSort : SortBase
         SelectionSort_20250728.Sort(Array.ToArray()).PrintArray("2025-07-28");
         SelectionSort_20250729.Sort(Array.ToArray()).PrintArray("2025-07-29");
         SelectionSort_20250804.Sort(Array.ToArray()).PrintArray("2025-08-04");
+        SelectionSort_20250807.Sort(Array.ToArray()).PrintArray("2025-08-07");
         
         PrintFooter();
     }
