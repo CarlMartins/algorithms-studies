@@ -23,6 +23,7 @@ public class LongestConsecutiveSequence : PrintBase
         LongestConsecutiveSequence_20250722.LongestConsecutive(_array.ToArray()).PrintInteger("2025-07-22");
         LongestConsecutiveSequence_20250723.LongestConsecutive(_array.ToArray()).PrintInteger("2025-07-23");
         LongestConsecutiveSequence_20250726.LongestConsecutive(_array.ToArray()).PrintInteger("2025-07-26");
+        LongestConsecutiveSequence_20250807.LongestConsecutive(_array.ToArray()).PrintInteger("2025-08-07");
         
         PrintFooter();
     }

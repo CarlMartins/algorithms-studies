@@ -35,7 +35,7 @@ string[] linkedListWords = { "the", "jumps", "over", "the", "dog" };
 var twoSum = new TwoSum();
 twoSum.PrintTwoSum();
 
-var longestConsecutiveSequence = new LongestConsecutiveSequence();
+var longestConsecutiveSequence = new LongestConsecutiveSequence([6, 4, 12, 13, 22, 15, 11, 14]);
 longestConsecutiveSequence.PrintLongestConsecutiveSequence();
 
 var rotateByK = new RotateByK();
