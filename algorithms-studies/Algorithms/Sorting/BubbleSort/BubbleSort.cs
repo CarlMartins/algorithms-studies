@@ -35,6 +35,7 @@ public class BubbleSort : SortBase
         BubbleSort_20250728.Sort(Array.ToArray()).PrintArray("2025-07-28");
         BubbleSort_20250729.Sort(Array.ToArray()).PrintArray("2025-07-29");
         BubbleSort_20250804.Sort(Array.ToArray()).PrintArray("2025-08-04");
+        BubbleSort_20250807.Sort(Array.ToArray()).PrintArray("2025-08-07");
 
         PrintFooter();
     }
