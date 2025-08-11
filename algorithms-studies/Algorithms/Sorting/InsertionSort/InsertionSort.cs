@@ -34,6 +34,7 @@ public class InsertionSort : SortBase
         InsertionSort20250729.Sort(Array.ToArray()).PrintArray("2025-07-29");
         InsertionSort20250804.Sort(Array.ToArray()).PrintArray("2025-08-04");
         InsertionSort_20250807.Sort(Array.ToArray()).PrintArray("2025-08-07");
+        InsertionSort_20250811.Sort(Array.ToArray()).PrintArray("2025-08-11");
 
         PrintFooter();
     }
