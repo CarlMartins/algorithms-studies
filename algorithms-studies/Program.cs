@@ -14,7 +14,7 @@ insertionSort.PrintInsertionSort();
 var selectionSort = new SelectionSort();
 selectionSort.PrintSelectionSort();
 
-var binarySearch = new BinarySearch();
+var binarySearch = new BinarySearch(2);
 binarySearch.PrintBinarySearches();
 
 var twoSum = new TwoSum();

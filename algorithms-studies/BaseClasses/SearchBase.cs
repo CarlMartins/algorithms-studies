@@ -15,6 +15,11 @@ public class SearchBase : PrintBase
         Array = array;
         Target = target;
     }
+
+    protected SearchBase(int target)
+    {
+        Target = target;
+    }
     
     protected void PrintHeader(string searchName)
     {
