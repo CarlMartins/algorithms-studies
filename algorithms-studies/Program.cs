@@ -4,6 +4,7 @@ using algorithms_studies.Algorithms.Sorting.InsertionSort;
 using algorithms_studies.Algorithms.Sorting.SelectionSort;
 using algorithms_studies.Problems.Arrays;
 using algorithms_studies.Problems.Arrays.LongestConsecutiveSequence;
+using algorithms_studies.Problems.Arrays.MajorityElement;
 
 var bubbleSort = new BubbleSort([1, 54, 12, 3, 1, 99, 20, 2, 5]);
 bubbleSort.PrintBubbleSort();
@@ -25,3 +26,6 @@ longestConsecutiveSequence.PrintLongestConsecutiveSequence();
 
 var rotateByK = new RotateByK();
 rotateByK.PrintRotateByK();
+
+var majorityElement = new MajorityElement();
+majorityElement.PrintMajorityElement();
